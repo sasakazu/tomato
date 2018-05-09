@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fHi-i8-VEc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,20 +10,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--acount-->
+        <scene sceneID="iwR-Tj-Cdz">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tomato" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="Mnw-CZ-8xO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q6u-c6-IV1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="A1C-y1-6YM"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="acount" image="人物アイコン.png" id="hfW-WV-eaX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6o2-Kw-WM4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-628" y="576"/>
+        </scene>
+        <!--search-->
+        <scene sceneID="w91-76-Aqb">
+            <objects>
+                <viewController id="nSP-dk-NE7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3vh-mk-rgP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="NT8-Po-Vjk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="search" image="虫眼鏡の無料アイコン8.png" id="BUA-DD-m7l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4VJ-xv-2cT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="223"/>
+        </scene>
+        <!--tomato-->
+        <scene sceneID="M6e-ty-75J">
+            <objects>
+                <viewController id="1Ae-0S-jeA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jth-Nh-eeA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mF5-o3-gv8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="tomato" image="トマトのアイコン4.png" id="bKZ-zs-EBu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CiG-4m-uhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="-495"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="msL-9A-Rqv">
+            <objects>
+                <tabBarController id="fHi-i8-VEc" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VaV-hJ-BTq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Ae-0S-jeA" kind="relationship" relationship="viewControllers" id="L3a-RW-hdk"/>
+                        <segue destination="nSP-dk-NE7" kind="relationship" relationship="viewControllers" id="UZc-h5-7HL"/>
+                        <segue destination="Mnw-CZ-8xO" kind="relationship" relationship="viewControllers" id="T2D-KH-e95"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6f9-Cp-EqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-628" y="-163"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="トマトのアイコン4.png" width="32" height="32"/>
+        <image name="人物アイコン.png" width="32" height="32"/>
+        <image name="虫眼鏡の無料アイコン8.png" width="32" height="32"/>
+    </resources>
 </document>
