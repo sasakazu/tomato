@@ -17,7 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="q6u-c6-IV1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A1C-y1-6YM"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="acount" image="人物アイコン.png" id="hfW-WV-eaX"/>
@@ -33,7 +33,7 @@
                     <view key="view" contentMode="scaleToFill" id="3vh-mk-rgP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="NT8-Po-Vjk"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="search" image="虫眼鏡の無料アイコン8.png" id="BUA-DD-m7l"/>
@@ -49,7 +49,7 @@
                     <view key="view" contentMode="scaleToFill" id="Jth-Nh-eeA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mF5-o3-gv8"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="tomato" image="トマトのアイコン4.png" id="bKZ-zs-EBu"/>

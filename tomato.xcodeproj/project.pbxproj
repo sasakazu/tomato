@@ -17,6 +17,7 @@
 		7333B19B20A2E70000FB3AA4 /* トマトのアイコン4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7333B19A20A2E70000FB3AA4 /* トマトのアイコン4.png */; };
 		7333B19D20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7333B19C20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png */; };
 		7333B19F20A2E78900FB3AA4 /* 人物アイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = 7333B19E20A2E78900FB3AA4 /* 人物アイコン.png */; };
+		7333B1A120A2EBBF00FB3AA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7333B1A020A2EBBF00FB3AA4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7333B19A20A2E70000FB3AA4 /* トマトのアイコン4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "トマトのアイコン4.png"; sourceTree = "<group>"; };
 		7333B19C20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "虫眼鏡の無料アイコン8.png"; sourceTree = "<group>"; };
 		7333B19E20A2E78900FB3AA4 /* 人物アイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人物アイコン.png"; sourceTree = "<group>"; };
+		7333B1A020A2EBBF00FB3AA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		958BFCDD9520B22738155C3D /* Pods_tomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC949EA2FD07E458C12103E5 /* Pods-tomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomato.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomato/Pods-tomato.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				7333B19920A2E6EC00FB3AA4 /* images */,
 				7333B18820A2E2B100FB3AA4 /* Main.storyboard */,
 				7333B18E20A2E2B300FB3AA4 /* Assets.xcassets */,
+				7333B1A020A2EBBF00FB3AA4 /* GoogleService-Info.plist */,
 				7333B19020A2E2B300FB3AA4 /* LaunchScreen.storyboard */,
 				7333B19320A2E2B300FB3AA4 /* Info.plist */,
 				7333B18B20A2E2B100FB3AA4 /* tomato.xcdatamodeld */,
@@ -119,6 +122,7 @@
 				7333B17D20A2E2B100FB3AA4 /* Sources */,
 				7333B17E20A2E2B100FB3AA4 /* Frameworks */,
 				7333B17F20A2E2B100FB3AA4 /* Resources */,
+				907EAE1024AE8A8C8A6216DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +173,7 @@
 			files = (
 				7333B19F20A2E78900FB3AA4 /* 人物アイコン.png in Resources */,
 				7333B19B20A2E70000FB3AA4 /* トマトのアイコン4.png in Resources */,
+				7333B1A120A2EBBF00FB3AA4 /* GoogleService-Info.plist in Resources */,
 				7333B19220A2E2B300FB3AA4 /* LaunchScreen.storyboard in Resources */,
 				7333B19D20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png in Resources */,
 				7333B18F20A2E2B300FB3AA4 /* Assets.xcassets in Resources */,
@@ -195,6 +200,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907EAE1024AE8A8C8A6216DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tomato/Pods-tomato-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tomato/Pods-tomato-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -354,10 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNAV5S2KU6;
 				INFOPLIST_FILE = tomato/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.88company.tomato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -373,10 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNAV5S2KU6;
 				INFOPLIST_FILE = tomato/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.88company.tomato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

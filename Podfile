@@ -7,4 +7,6 @@ target 'tomato' do
 
   # Pods for tomato
 
+  pod 'Firebase/Core'
+
 end
