@@ -62,21 +62,46 @@
             </objects>
             <point key="canvasLocation" x="1157.5999999999999" y="569.86506746626696"/>
         </scene>
-        <!--search-->
+        <!--pick-->
         <scene sceneID="w91-76-Aqb">
             <objects>
                 <viewController id="nSP-dk-NE7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3vh-mk-rgP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rdL-mp-q4l">
+                                <rect key="frame" x="76" y="72" width="222" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="HOT"/>
+                                    <segment title="NEW"/>
+                                </segments>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gzB-Ga-4Wl">
+                                <rect key="frame" x="0.0" y="153" width="375" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="3d8-hG-woi">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3d8-hG-woi" id="N06-NF-Moo">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="NT8-Po-Vjk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="search" image="虫眼鏡の無料アイコン8.png" id="BUA-DD-m7l"/>
+                    <tabBarItem key="tabBarItem" title="pick" image="星アイコン8.png" id="BUA-DD-m7l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VJ-xv-2cT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="-163"/>
+            <point key="canvasLocation" x="324" y="-163.26836581709148"/>
         </scene>
         <!--tomato-->
         <scene sceneID="M6e-ty-75J">
@@ -371,7 +396,7 @@
         <image name="トマトのアイコン4.png" width="32" height="32"/>
         <image name="三点リーダーアイコン1.png" width="32" height="32"/>
         <image name="人物アイコン.png" width="32" height="32"/>
-        <image name="虫眼鏡の無料アイコン8.png" width="32" height="32"/>
+        <image name="星アイコン8.png" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Al5-zI-0v9"/>
