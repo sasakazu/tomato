@@ -24,6 +24,7 @@
 		737669C820A6E22E0028CAF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737669C720A6E22E0028CAF9 /* TableViewController.swift */; };
 		737669CA20A6FD940028CAF9 /* ハートのマーク5.png in Resources */ = {isa = PBXBuildFile; fileRef = 737669C920A6FD930028CAF9 /* ハートのマーク5.png */; };
 		737669CC20A6FE300028CAF9 /* 星アイコン8.png in Resources */ = {isa = PBXBuildFile; fileRef = 737669CB20A6FE2F0028CAF9 /* 星アイコン8.png */; };
+		7388C14920AAF8390040936D /* プラスのアイコン素材.png in Resources */ = {isa = PBXBuildFile; fileRef = 7388C14820AAF8380040936D /* プラスのアイコン素材.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		737669C720A6E22E0028CAF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		737669C920A6FD930028CAF9 /* ハートのマーク5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ハートのマーク5.png"; sourceTree = "<group>"; };
 		737669CB20A6FE2F0028CAF9 /* 星アイコン8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "星アイコン8.png"; sourceTree = "<group>"; };
+		7388C14820AAF8380040936D /* プラスのアイコン素材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "プラスのアイコン素材.png"; sourceTree = "<group>"; };
 		958BFCDD9520B22738155C3D /* Pods_tomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC949EA2FD07E458C12103E5 /* Pods-tomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tomato.release.xcconfig"; path = "Pods/Target Support Files/Pods-tomato/Pods-tomato.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				737669C920A6FD930028CAF9 /* ハートのマーク5.png */,
+				7388C14820AAF8380040936D /* プラスのアイコン素材.png */,
 				7333B19A20A2E70000FB3AA4 /* トマトのアイコン4.png */,
 				7333B19E20A2E78900FB3AA4 /* 人物アイコン.png */,
 				7333B19C20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png */,
@@ -199,6 +202,7 @@
 				7333B19D20A2E73900FB3AA4 /* 虫眼鏡の無料アイコン8.png in Resources */,
 				7333B18F20A2E2B300FB3AA4 /* Assets.xcassets in Resources */,
 				7333B18A20A2E2B100FB3AA4 /* Main.storyboard in Resources */,
+				7388C14920AAF8390040936D /* プラスのアイコン素材.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
